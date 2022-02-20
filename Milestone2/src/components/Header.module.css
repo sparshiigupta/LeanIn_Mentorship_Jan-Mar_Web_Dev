@@ -1,0 +1,29 @@
+.container {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 584px) {
+  .container {
+    width: 400px;
+  }
+}
+@media (max-width: 380px) {
+  .container {
+    width: 300px;
+  }
+}
+.title {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: rgb(122, 58, 122);
+}
+.total {
+  background-color: rgb(88, 88, 88);
+  padding: 5px;
+  border-radius: 5px;
+  color: aliceblue;
+}

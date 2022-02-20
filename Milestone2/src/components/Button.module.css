@@ -1,0 +1,17 @@
+.button {
+  display: flex;
+  align-items: center;
+}
+.submit_button {
+  margin: auto;
+  width: 200px;
+  border-radius: 5px;
+  padding: 5px 0;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.submit_button:hover {
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
